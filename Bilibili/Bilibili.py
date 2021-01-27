@@ -26,7 +26,6 @@ class BiliBili(object):
         self.username = username
         self.password = password
 
-
 class BiliBiliAchive(BiliBili):
 
     def __init__(self,target):#初始化
@@ -76,8 +75,6 @@ class ReplyCatcher(BiliBiliAchive):
         res.encoding = res.apparent_encoding
         data = res.json()
         print(data)
-
-
 
 class BarrageCatcher(BiliBiliAchive):
     
