@@ -2,7 +2,7 @@
 # coding=utf-8
 # author:sakuyo
 #----------------------------------
-import requests,time,csv
+import requests,time,csv,json
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import xml.dom.minidom
@@ -25,6 +25,18 @@ class BiliBili(object):
     def login(self,username,password):#登录方法
         self.username = username
         self.password = password
+
+    def SaveToCSV(self,fileName,headers,contents):
+        #titles = ['ShowTime','Mode','FontSize','FontColor','CommentTime','BarragePool','UserID','RowID','Content']
+        titles = headers
+        #data = self.barrageList
+        data = contents
+        #csv用utf-8-sig来保存
+        with open(fileName+'.csv','a',newline='',encoding='utf-8-sig') as f:
+            writer = csv.DictWriter(f,fieldnames=titles)
+            writer.writeheader()
+            writer.writerows(data)
+            print('写入完成！')
 
 class BiliBiliAchive(BiliBili):
 
@@ -55,12 +67,14 @@ class BiliBiliAchive(BiliBili):
         self.aid = data['data']['aid'] #av号
         self.bvid = data['data']['bvid'] #bv号
         self.cid = data['data']['cid']
+        self.title = data['data']['title'] #视频标题
         self.oid = self.cid #cid和oid相同
         self.pubDate = data['data']['pubdate'] #视频发布日期
 
 class ReplyCatcher(BiliBiliAchive):
     
     def GetReply(self):
+        self.replyList = []
         url = 'https://api.bilibili.com/x/v2/reply'
         headers = self.headers
         #这里的oid不是cid是aid
@@ -73,8 +87,9 @@ class ReplyCatcher(BiliBiliAchive):
         res = self.session.get(url,headers=headers,params=dataDict,cookies=cookies)
         res.raise_for_status()
         res.encoding = res.apparent_encoding
-        data = res.json()
-        print(data)
+        data = json.dumps(res.json(), ensure_ascii=False)
+        self.replyList = data['data']['replies']
+        
 
 class BarrageCatcher(BiliBiliAchive):
     
@@ -164,15 +179,7 @@ class BarrageCatcher(BiliBiliAchive):
             self.barrageList.append(barrage)
         print('共读取%d条'% (len(self.barrageList)))
 
-    def SaveToCSV(self,fileName):
-        titles = ['ShowTime','Mode','FontSize','FontColor','CommentTime','BarragePool','UserID','RowID','Content']
-        data = self.barrageList
-        #csv用utf-8-sig来保存
-        with open(fileName+'.csv','a',newline='',encoding='utf-8-sig') as f:
-            writer = csv.DictWriter(f,fieldnames=titles)
-            writer.writeheader()
-            writer.writerows(data)
-            print('写入完成！')
+
 
 class UserCatcher(BiliBili):     
 
@@ -299,10 +306,11 @@ if __name__ == '__main__':#执行层
     targetBv = 'BV1Ch411y75c'
     #bcObj = BarrageCatcher(target = targetBv)
     #bcObj.GetBarrageRecord()
-    #bcObj.SaveToCSV(targetBv)
+    #bcObj.SaveToCSV(bcObj.title,bcObj.barrageList[0].keys(),bcObj.barrageList)
     #ucObj = UserCatcher()
     #user = ucObj.GetUserInfo(mid='1727142')
     #user = ucObj.GetUserFollowerList(mid='1727142')
     #print(user)
     rpObj = ReplyCatcher(target = targetBv)
     rpObj.GetReply()
+    rpObj.SaveToCSV(rpObj.title,rpObj.replyList[0].keys(),rpObj.replyList)
