@@ -86,8 +86,8 @@ class ReplyCatcher(BiliBiliAchive):
         cookies = self.cookies
         res = self.session.get(url,headers=headers,params=dataDict,cookies=cookies)
         res.raise_for_status()
-        res.encoding = res.apparent_encoding
-        data = json.dumps(res.json(), ensure_ascii=False)
+        res.encoding = 'utf-8'
+        data = res.json()
         self.replyList = data['data']['replies']
         
 
