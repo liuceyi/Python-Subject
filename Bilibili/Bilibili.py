@@ -81,7 +81,8 @@ class ReplyCatcher(BiliBiliAchive):
         dataDict = {
             'type':1,
             'oid':self.aid,
-            'jsonp':'jsonp'
+            'jsonp':'jsonp',
+            'pn':1
             }
         cookies = self.cookies
         res = self.session.get(url,headers=headers,params=dataDict,cookies=cookies)
@@ -182,6 +183,10 @@ class BarrageCatcher(BiliBiliAchive):
 
 
 class UserCatcher(BiliBili):     
+    def __init__(self):#初始化
+        #BiliBili初始化
+        BiliBili.__init__(self)
+        self.session = requests.Session() #启动弹幕读取session
 
     def GetUserFollowerList(self,mid):#获取用户粉丝列表
         url = 'https://api.bilibili.com/x/relation/followers'
@@ -303,14 +308,14 @@ class UserCatcher(BiliBili):
 
 
 if __name__ == '__main__':#执行层
-    targetBv = 'BV1Ch411y75c'
+    targetBv = 'BV15A411u7CA'
     #bcObj = BarrageCatcher(target = targetBv)
     #bcObj.GetBarrageRecord()
     #bcObj.SaveToCSV(bcObj.title,bcObj.barrageList[0].keys(),bcObj.barrageList)
-    #ucObj = UserCatcher()
-    #user = ucObj.GetUserInfo(mid='1727142')
-    #user = ucObj.GetUserFollowerList(mid='1727142')
-    #print(user)
-    rpObj = ReplyCatcher(target = targetBv)
-    rpObj.GetReply()
-    rpObj.SaveToCSV(rpObj.title,rpObj.replyList[0].keys(),rpObj.replyList)
+    ucObj = UserCatcher()
+    user = ucObj.GetUserInfo(mid='6401388')
+    #user = ucObj.GetUserFollowerList(mid='6401388')
+    print(user)
+    #rpObj = ReplyCatcher(target = targetBv)
+    #rpObj.GetReply()
+    #rpObj.SaveToCSV(rpObj.title,rpObj.replyList[0].keys(),rpObj.replyList)

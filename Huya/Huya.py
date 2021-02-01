@@ -48,7 +48,7 @@ class HuyaLive(Huya):
     def Connect(self):#连接直播间
         chrome_options = Options()
         # 使用headless无界面浏览器模式
-        #chrome_options.add_argument('--headless') #增加无界面选项
+        chrome_options.add_argument('--headless') #增加无界面选项
         chrome_options.add_experimental_option("detach", True)
         driver = webdriver.Chrome(options=chrome_options)
         url  ='https://www.huya.com/'+self.target
@@ -109,7 +109,7 @@ class HuyaLive(Huya):
 
 def QuitAndSave(signum, frame):#监听退出信号
     print ('catched singal: %d' % signum)
-    hyObj.SaveToCSV('test',['username','time','msg','gift','num'],hyObj.barrageList.values())
+    hyObj.SaveToCSV(hyObj.target,['username','time','msg','gift','num'],hyObj.barrageList.values())
     sys.exit(0)
 
 
@@ -117,6 +117,6 @@ if __name__ == '__main__':#执行层
     #信号监听
     signal.signal(signal.SIGTERM, QuitAndSave)
     signal.signal(signal.SIGINT, QuitAndSave)
-
-    hyObj = HuyaLive('tongcan')
+    inputName = input('请输入想要监听的主播').strip()
+    hyObj = HuyaLive(inputName)
     hyObj.Connect()
