@@ -38,6 +38,14 @@ class BiliBili(object):
             writer.writerows(data)
             print('写入完成！')
 
+class BiliBiliLive(BiliBili):
+    def __init__(self,target):#初始化
+        #BiliBili初始化
+        BiliBili.__init__(self)
+        self.target = target #target为直播间号
+        self.session = requests.Session() #启动弹幕读取session
+
+
 class BiliBiliAchive(BiliBili):
 
     def __init__(self,target):#初始化
@@ -108,7 +116,7 @@ class BarrageCatcher(BiliBiliAchive):
         return diffNum
 
     def GetBarrageRecordByMonth(self,month):#获取当月弹幕
-        url = 'https://api.bilibili.com/x/v2/dm/history/index'
+        url = 'https://api.bilibili.com/x/v2/dm/history/index' 
         headers = self.headers
         dataDict = {
             'type':1,
@@ -140,7 +148,9 @@ class BarrageCatcher(BiliBiliAchive):
             raise ValueError('时间格式错误')
 
         oid = self.oid
-        url = 'https://api.bilibili.com/x/v2/dm/history'
+        #url = 'https://api.bilibili.com/x/v2/dm/history' 该接口已失效
+
+        url = 'https://api.bilibili.com/x/v2/dm/web/seg.so'
         headers = self.headers
         dataDict = {
             'type':1,
@@ -154,6 +164,8 @@ class BarrageCatcher(BiliBiliAchive):
         res.raise_for_status()
         res.encoding = res.apparent_encoding
         rawContent = res.text
+        result = re.findall(".*?([\u4E00-\u9FA5]+).*?", rawContent)
+
         barrage = self.GetBarrageXML(rawContent) # 处理xml，提取弹幕
         return barrage
 
@@ -164,6 +176,7 @@ class BarrageCatcher(BiliBiliAchive):
         barrageList = docList.getElementsByTagName('d') #将d标签全部读取
         for unit in barrageList:
             barrage = {} #每条弹幕数据
+            #["state", "text", "textSide", "dmSge", "flag", "specialDms", "checkBox", "count", "commandDms", "dmSetting"]
             barrageAttr = unit.getAttribute('p') #p标签存储了弹幕信息
             attrList=barrageAttr.split(',')
             barrage['ShowTime'] = attrList[0]

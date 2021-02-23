@@ -75,7 +75,7 @@ class HuyaLive(Huya):
                     #尝试是否为礼物弹幕
                     try:
                         hSend = chatMsg.find_element_by_class_name("tit-h-send")
-                        content['username'] = hSend.find_elements_by_class_name("cont-item")[0].text
+                        content['username'] = hSend.find_element_by_class_name("J_userMenu").text
                         content['gift'] = hSend.find_element_by_class_name("send-gift").find_element_by_tag_name("img").get_attribute("alt")
                         content['num'] = hSend.find_elements_by_class_name("cont-item")[3].text
                     except:
@@ -84,11 +84,13 @@ class HuyaLive(Huya):
                     try:
                         mSend = chatMsg.find_element_by_class_name("msg-normal")
                         content["username"] = mSend.find_element_by_class_name("J_userMenu").text
+                        #//*[@id="chat-room__list"]/li[35]/div/span[3]
                         content["msg"] = mSend.find_element_by_class_name("msg").text
                     except:
                         pass
                     #存入弹幕列表
-                    self.SaveToBarrageList(dataId,content)
+                    if content != {}:
+                        self.SaveToBarrageList(dataId,content)
                     
                 except:
                     continue
