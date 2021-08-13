@@ -3,7 +3,8 @@
 # author:sakuyo
 #----------------------------------
 
-import csv,time,sys,signal,os,time,json
+import csv,time,sys,signal,os,time,json,requests,random
+from bs4 import BeautifulSoup
 import pandas as pd
 import numpy as np
 import threading
@@ -48,7 +49,7 @@ class Huya(object):
 
 class HuyaLive(Huya):
 
-    def __init__(self, is_manual = False):# 初始化 输入值target为直播间ID
+    def __init__(self, is_manual = False, ip=''):# 初始化 输入值target为直播间ID
         # 父类初始化
         Huya.__init__(self)
         self.barrageList = {}
@@ -62,6 +63,11 @@ class HuyaLive(Huya):
             chrome_options.add_argument("--mute-audio") # 静音
             # 使用headless无界面浏览器模式
             chrome_options.add_argument('--headless') # 增加无界面选项
+        # 切换代理IP
+        if ip =='':
+            pass
+        else:
+            chrome_options.add_argument("--proxy-server="+ip)
 
         chrome_options.add_experimental_option("detach", True)
         chrome_options.add_argument('log-level=3')
@@ -294,7 +300,8 @@ class HuyaUI(object):
         def ManualLogin(event):
             item = tree.selection()[0]
             index = tree.index(item)
-            data_temp['obj'][index] = HuyaLive(True)
+            proxy = ipPool.GetProxy()
+            data_temp['obj'][index] = HuyaLive(True, ip='http://{}:{}'.format(proxy['ip'], proxy['port']))
             while True:
                 try:
                     if data_temp['obj'][index].CheckLogin():
@@ -383,9 +390,85 @@ class HuyaUI(object):
 
         root.mainloop()                 # 进入消息循环
 
+class IPPool(object):
+    def __init__(self):
+        self.url = 'https://www.kuaidaili.com/free/inha/'
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+        }
+        self.LoadProxies()
+    
+    def Connect(self, page='1'):
+        url = self.url + str(page)
+        req = requests.get(self.url, headers=self.headers)
+        soup = BeautifulSoup(req.text)
+        ips_html = soup.find_all('td',{'data-title':'IP'})
+        ips = []
+        for ip_html in ips_html:
+            ip = ip_html.text
+            print(ip)
+            ips.append(ip)
+        ports_html = soup.find_all('td',{'data-title':'PORT'})
+        ports = []
+        for port_html in ports_html:
+            port = port_html.text
+            ports.append(port)
+        temps = []
+        for i in range(0,len(ips)):
+            temp = threading.Thread(target=self.CheckAllProxy, args=(ips[i], ports[i]))
+            temps.append(temp)
 
+        for temp in temps:
+            temp.start()
+        
+        for temp in temps:
+            temp.join()
 
+    def CheckAllProxy(self, ip, port):
+        proxies = {}
+        proxy_url = 'http://{}:{}'.format(ip, port)
+        url = 'http://www.baidu.com/'
+        proxy_dict = {
+            'http': proxy_url
+        }
+        try:
+            start_time = time.time()
+            response = requests.get(url, proxies=proxy_dict, timeout=5)
+            if response.status_code == 200:
+                end_time = time.time()
+                print('代理可用：' + proxy_url)
+                print('耗时:' + str(end_time - start_time))
+                for proxy in self.proxies:
+                    if proxy['ip'] == ip:
+                        break
+                    else:
+                        pass
+                proxies['ip'] = ip
+                proxies['port'] = port
+                self.proxies.append(proxies)
+                proxiesJson = json.dumps(self.proxies)
+                with open('proxies.json', 'w') as f:
+                    f.write(proxiesJson)
+                print("已写入：%s" % proxy_url)
+                return True
+            else:
+                print('代理超时')
+                return False
+        except:
+            print('代理不可用--------------->')
+            return False
 
+    def LoadProxies(self):
+        with open('proxies.json', 'a+') as f:
+            try:
+                self.proxies = json.load(f)
+            except:
+                self.proxies = []
+            print(self.proxies)
+
+    def GetProxy(self):
+        num = random.randint(0,len(self.proxies))
+        return self.proxies[num]
 
 def QuitAndSave(signum, frame):#监听退出信号
     print('catched singal: %d' % signum)
@@ -397,6 +480,8 @@ if __name__ == '__main__':#执行层
     #信号监听
     signal.signal(signal.SIGTERM, QuitAndSave)
     signal.signal(signal.SIGINT, QuitAndSave)
-    
+    ipPool = IPPool()
+    for i in range(1,5):
+        ipPool.Connect(i)
     hyObj = HuyaUI()
     hyObj.Start()

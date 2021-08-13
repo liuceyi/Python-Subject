@@ -1,36 +1,12 @@
 ('C:\\Users\\Administrator\\Desktop\\Python '
  'Subject\\Huya\\build\\Huya\\PYZ-00.pyz',
- [('tempfile',
+ [('ssl',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\tempfile.py',
+   'studio\\shared\\python37_64\\lib\\ssl.py',
    'PYMODULE'),
-  ('random',
+  ('calendar',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\random.py',
-   'PYMODULE'),
-  ('bisect',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\bisect.py',
-   'PYMODULE'),
-  ('hashlib',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\hashlib.py',
-   'PYMODULE'),
-  ('logging',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('pickle',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\pickle.py',
-   'PYMODULE'),
-  ('pprint',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\pprint.py',
-   'PYMODULE'),
-  ('doctest',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\doctest.py',
+   'studio\\shared\\python37_64\\lib\\calendar.py',
    'PYMODULE'),
   ('argparse',
    'c:\\program files (x86)\\microsoft visual '
@@ -48,37 +24,117 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\gettext.py',
    'PYMODULE'),
-  ('unittest',
+  ('struct',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\unittest\\__init__.py',
+   'studio\\shared\\python37_64\\lib\\struct.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\datetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\getopt.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\selectors.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\py_compile.py',
    'PYMODULE'),
   ('ntpath',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\ntpath.py',
    'PYMODULE'),
+  ('string',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\string.py',
+   'PYMODULE'),
   ('genericpath',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\genericpath.py',
    'PYMODULE'),
-  ('stat',
+  ('importlib.machinery',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\stat.py',
+   'studio\\shared\\python37_64\\lib\\importlib\\machinery.py',
    'PYMODULE'),
-  ('unittest.signals',
+  ('importlib',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\unittest\\signals.py',
+   'studio\\shared\\python37_64\\lib\\importlib\\__init__.py',
    'PYMODULE'),
-  ('unittest.main',
+  ('importlib.abc',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\unittest\\main.py',
+   'studio\\shared\\python37_64\\lib\\importlib\\abc.py',
    'PYMODULE'),
-  ('unittest.runner',
+  ('importlib._bootstrap',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\unittest\\runner.py',
+   'studio\\shared\\python37_64\\lib\\importlib\\_bootstrap.py',
    'PYMODULE'),
-  ('unittest.loader',
+  ('importlib._bootstrap_external',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\unittest\\loader.py',
+   'studio\\shared\\python37_64\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\token.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\bz2.py',
    'PYMODULE'),
   ('fnmatch',
    'c:\\program files (x86)\\microsoft visual '
@@ -88,33 +144,101 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\posixpath.py',
    'PYMODULE'),
-  ('unittest.suite',
+  ('stat',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\unittest\\suite.py',
+   'studio\\shared\\python37_64\\lib\\stat.py',
    'PYMODULE'),
-  ('unittest.case',
+  ('traitlets.traitlets',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\unittest\\case.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\traitlets.py',
    'PYMODULE'),
-  ('contextlib',
+  ('traitlets',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\contextlib.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\__init__.py',
    'PYMODULE'),
-  ('unittest.result',
+  ('traitlets._version',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\unittest\\result.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\_version.py',
    'PYMODULE'),
-  ('unittest.util',
+  ('traitlets.utils.decorators',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\unittest\\util.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\decorators.py',
    'PYMODULE'),
-  ('pdb',
+  ('traitlets.utils',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\pdb.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\__init__.py',
    'PYMODULE'),
-  ('getopt',
+  ('traitlets.utils.descriptions',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\getopt.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\descriptions.py',
+   'PYMODULE'),
+  ('traitlets.utils.bunch',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\bunch.py',
+   'PYMODULE'),
+  ('traitlets.utils.sentinel',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\sentinel.py',
+   'PYMODULE'),
+  ('traitlets.utils.importstring',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\importstring.py',
+   'PYMODULE'),
+  ('traitlets.utils.getargspec',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\getargspec.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\inspect.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\ast.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.semaphore_tracker',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\multiprocessing\\semaphore_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.server',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\xmlrpc\\server.py',
    'PYMODULE'),
   ('pydoc',
    'c:\\program files (x86)\\microsoft visual '
@@ -124,13 +248,13 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\webbrowser.py',
    'PYMODULE'),
-  ('socket',
+  ('glob',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\socket.py',
+   'studio\\shared\\python37_64\\lib\\glob.py',
    'PYMODULE'),
-  ('selectors',
+  ('shlex',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\selectors.py',
+   'studio\\shared\\python37_64\\lib\\shlex.py',
    'PYMODULE'),
   ('email.message',
    'c:\\program files (x86)\\microsoft visual '
@@ -172,10 +296,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\email\\_encoded_words.py',
    'PYMODULE'),
-  ('base64',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\base64.py',
-   'PYMODULE'),
   ('email.charset',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\email\\charset.py',
@@ -208,18 +328,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\email\\_parseaddr.py',
    'PYMODULE'),
-  ('calendar',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\calendar.py',
-   'PYMODULE'),
-  ('datetime',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\datetime.py',
-   'PYMODULE'),
-  ('_strptime',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_strptime.py',
-   'PYMODULE'),
   ('email',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\email\\__init__.py',
@@ -244,38 +352,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\optparse.py',
    'PYMODULE'),
-  ('http.server',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\http\\server.py',
-   'PYMODULE'),
-  ('http',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\http\\__init__.py',
-   'PYMODULE'),
-  ('socketserver',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\socketserver.py',
-   'PYMODULE'),
-  ('mimetypes',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\mimetypes.py',
-   'PYMODULE'),
-  ('http.client',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\http\\client.py',
-   'PYMODULE'),
-  ('ssl',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\ssl.py',
-   'PYMODULE'),
-  ('html',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\html\\__init__.py',
-   'PYMODULE'),
-  ('html.entities',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\html\\entities.py',
-   'PYMODULE'),
   ('pydoc_data.topics',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\pydoc_data\\topics.py',
@@ -287,22 +363,6 @@
   ('tty',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\tty.py',
-   'PYMODULE'),
-  ('subprocess',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\subprocess.py',
-   'PYMODULE'),
-  ('urllib.parse',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\urllib\\parse.py',
-   'PYMODULE'),
-  ('tokenize',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\tokenize.py',
-   'PYMODULE'),
-  ('token',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\token.py',
    'PYMODULE'),
   ('sysconfig',
    'c:\\program files (x86)\\microsoft visual '
@@ -323,26 +383,6 @@
   ('distutils.archive_util',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\distutils\\archive_util.py',
-   'PYMODULE'),
-  ('tarfile',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\tarfile.py',
-   'PYMODULE'),
-  ('gzip',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\gzip.py',
-   'PYMODULE'),
-  ('_compression',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_compression.py',
-   'PYMODULE'),
-  ('lzma',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\lzma.py',
-   'PYMODULE'),
-  ('bz2',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\bz2.py',
    'PYMODULE'),
   ('distutils.dir_util',
    'c:\\program files (x86)\\microsoft visual '
@@ -368,14 +408,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\distutils\\errors.py',
    'PYMODULE'),
-  ('zipfile',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\zipfile.py',
-   'PYMODULE'),
-  ('py_compile',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\py_compile.py',
-   'PYMODULE'),
   ('distutils.ccompiler',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\distutils\\ccompiler.py',
@@ -400,6 +432,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\distutils\\text_file.py',
    'PYMODULE'),
+  ('pprint',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\pprint.py',
+   'PYMODULE'),
   ('platform',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\platform.py',
@@ -407,6 +443,34 @@
   ('plistlib',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\mimetypes.py',
    'PYMODULE'),
   ('xml.parsers.expat',
    'c:\\program files (x86)\\microsoft visual '
@@ -460,6 +524,14 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\urllib\\error.py',
    'PYMODULE'),
+  ('hashlib',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\bisect.py',
+   'PYMODULE'),
   ('xml.sax',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\xml\\sax\\__init__.py',
@@ -476,177 +548,13 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\xml\\sax\\xmlreader.py',
    'PYMODULE'),
-  ('pkgutil',
+  ('urllib.parse',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\pkgutil.py',
+   'studio\\shared\\python37_64\\lib\\urllib\\parse.py',
    'PYMODULE'),
-  ('importlib',
+  ('http.client',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\importlib\\__init__.py',
-   'PYMODULE'),
-  ('importlib.abc',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\importlib\\abc.py',
-   'PYMODULE'),
-  ('importlib.util',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\importlib\\util.py',
-   'PYMODULE'),
-  ('importlib.machinery',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\importlib\\machinery.py',
-   'PYMODULE'),
-  ('importlib._bootstrap_external',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\importlib\\_bootstrap_external.py',
-   'PYMODULE'),
-  ('importlib._bootstrap',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\importlib\\_bootstrap.py',
-   'PYMODULE'),
-  ('runpy',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\runpy.py',
-   'PYMODULE'),
-  ('shlex',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\shlex.py',
-   'PYMODULE'),
-  ('glob',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\glob.py',
-   'PYMODULE'),
-  ('code',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\code.py',
-   'PYMODULE'),
-  ('codeop',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\codeop.py',
-   'PYMODULE'),
-  ('dis',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\dis.py',
-   'PYMODULE'),
-  ('opcode',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\opcode.py',
-   'PYMODULE'),
-  ('bdb',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\bdb.py',
-   'PYMODULE'),
-  ('cmd',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\cmd.py',
-   'PYMODULE'),
-  ('inspect',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\inspect.py',
-   'PYMODULE'),
-  ('ast',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\ast.py',
-   'PYMODULE'),
-  ('difflib',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\difflib.py',
-   'PYMODULE'),
-  ('__future__',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\__future__.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('struct',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\struct.py',
-   'PYMODULE'),
-  ('string',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\string.py',
-   'PYMODULE'),
-  ('shutil',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\shutil.py',
-   'PYMODULE'),
-  ('traitlets.traitlets',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\traitlets.py',
-   'PYMODULE'),
-  ('traitlets',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\__init__.py',
-   'PYMODULE'),
-  ('traitlets._version',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\_version.py',
-   'PYMODULE'),
-  ('traitlets.utils.decorators',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\decorators.py',
-   'PYMODULE'),
-  ('traitlets.utils',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\__init__.py',
-   'PYMODULE'),
-  ('traitlets.utils.descriptions',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\descriptions.py',
-   'PYMODULE'),
-  ('traitlets.utils.bunch',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\bunch.py',
-   'PYMODULE'),
-  ('traitlets.utils.sentinel',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\sentinel.py',
-   'PYMODULE'),
-  ('traitlets.utils.importstring',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\importstring.py',
-   'PYMODULE'),
-  ('traitlets.utils.getargspec',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\traitlets\\utils\\getargspec.py',
-   'PYMODULE'),
-  ('multiprocessing.popen_spawn_posix',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\multiprocessing\\popen_spawn_posix.py',
-   'PYMODULE'),
-  ('multiprocessing.semaphore_tracker',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\multiprocessing\\semaphore_tracker.py',
-   'PYMODULE'),
-  ('multiprocessing.util',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\multiprocessing\\util.py',
-   'PYMODULE'),
-  ('multiprocessing.forkserver',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\multiprocessing\\forkserver.py',
-   'PYMODULE'),
-  ('multiprocessing.connection',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\multiprocessing\\connection.py',
-   'PYMODULE'),
-  ('multiprocessing.resource_sharer',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\multiprocessing\\resource_sharer.py',
-   'PYMODULE'),
-  ('xmlrpc.client',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\xmlrpc\\client.py',
-   'PYMODULE'),
-  ('xmlrpc',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\xmlrpc\\__init__.py',
-   'PYMODULE'),
-  ('xmlrpc.server',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\xmlrpc\\server.py',
+   'studio\\shared\\python37_64\\lib\\http\\client.py',
    'PYMODULE'),
   ('decimal',
    'c:\\program files (x86)\\microsoft visual '
@@ -667,6 +575,90 @@
   ('hmac',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\hmac.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\pickle.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\pdb.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\runpy.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\codeop.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\cmd.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\_compat_pickle.py',
    'PYMODULE'),
   ('multiprocessing.process',
    'c:\\program files (x86)\\microsoft visual '
@@ -735,6 +727,10 @@
   ('multiprocessing.popen_spawn_win32',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\subprocess.py',
    'PYMODULE'),
   ('multiprocessing.spawn',
    'c:\\program files (x86)\\microsoft visual '
@@ -876,13 +872,17 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
-  ('packaging.requirements',
+  ('packaging._compat',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\requirements.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\_compat.py',
    'PYMODULE'),
   ('typing',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\typing.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\requirements.py',
    'PYMODULE'),
   ('pyparsing',
    'c:\\program files (x86)\\microsoft visual '
@@ -920,18 +920,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\win32\\lib\\netbios.py',
    'PYMODULE'),
-  ('packaging.version',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\version.py',
-   'PYMODULE'),
-  ('packaging.specifiers',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('packaging._structures',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\_structures.py',
-   'PYMODULE'),
   ('packaging',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\__init__.py',
@@ -940,65 +928,69 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\__about__.py',
    'PYMODULE'),
-  ('packaging._compat',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\_compat.py',
-   'PYMODULE'),
   ('packaging.tags',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\tags.py',
    'PYMODULE'),
-  ('packaging._typing',
+  ('packaging._structures',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\_typing.py',
-   'PYMODULE'),
-  ('packaging.markers',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\markers.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\_structures.py',
    'PYMODULE'),
   ('packaging.utils',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\utils.py',
    'PYMODULE'),
+  ('packaging._typing',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
   ('pkg_resources.py2_warn',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\py2_warn.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.six',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.packaging.requirements',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging._compat',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
+  ('pkg_resources._vendor.six',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
    'PYMODULE'),
   ('pkg_resources._vendor.appdirs',
    'c:\\program files (x86)\\microsoft visual '
@@ -1012,17 +1004,21 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\win32comext\\shell\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
+  ('pkg_resources._vendor.packaging.specifiers',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.utils',
+  ('pkg_resources._vendor.packaging.__about__',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
    'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
   ('pkg_resources.py31compat',
    'c:\\program files (x86)\\microsoft visual '
@@ -1036,6 +1032,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\imp.py',
    'PYMODULE'),
+  ('_py_abc',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\_py_abc.py',
+   'PYMODULE'),
   ('stringprep',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\stringprep.py',
@@ -1043,10 +1043,6 @@
   ('tracemalloc',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_py_abc.py',
    'PYMODULE'),
   ('selenium.webdriver.chrome.options',
    'c:\\program files (x86)\\microsoft visual '
@@ -1744,37 +1740,9 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.version',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._structures',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.ordered_set',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.__about__',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
   ('setuptools._vendor.packaging.requirements',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
-   'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
    'PYMODULE'),
   ('setuptools._vendor.six',
    'c:\\program files (x86)\\microsoft visual '
@@ -1784,21 +1752,49 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging._compat',
+  ('setuptools._vendor.packaging',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.utils',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
+  ('setuptools._vendor.ordered_set',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   'PYMODULE'),
   ('setuptools._vendor.packaging.markers',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
+  ('setuptools._vendor',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
   ('setuptools._vendor.packaging.specifiers',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._compat',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
    'PYMODULE'),
   ('setuptools.msvc',
    'c:\\program files (x86)\\microsoft visual '
@@ -2840,97 +2836,17 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\Image.py',
    'PYMODULE'),
-  ('PIL.DcxImagePlugin',
+  ('PIL.FitsStubImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IptcImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
    'PYMODULE'),
   ('PIL.ImageFile',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\ImageFile.py',
    'PYMODULE'),
-  ('PIL.FitsStubImagePlugin',
+  ('PIL.CurImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.GbrImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PcdImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Hdf5StubImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PsdImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.EpsImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\ImImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.TgaImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Jpeg2KImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.BlpImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpegImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MspImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\MspImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PixarImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImtImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XpmImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XbmImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpoImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.DdsImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.WmfImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FliImagePlugin',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\CurImagePlugin.py',
    'PYMODULE'),
   ('PIL.PdfImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
@@ -2944,49 +2860,73 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\ImageSequence.py',
    'PYMODULE'),
-  ('PIL.CurImagePlugin',
+  ('PIL.MspImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\MspImagePlugin.py',
    'PYMODULE'),
-  ('PIL.FtexImagePlugin',
+  ('PIL.BlpImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
    'PYMODULE'),
-  ('PIL.IcnsImagePlugin',
+  ('PIL.TgaImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
    'PYMODULE'),
-  ('PIL.features',
+  ('PIL.XpmImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\features.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
    'PYMODULE'),
   ('PIL.FpxImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
    'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
   ('PIL.McIdasImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
    'PYMODULE'),
   ('PIL.WebPImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
    'PYMODULE'),
-  ('PIL.MicImagePlugin',
+  ('PIL.ImtImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
    'PYMODULE'),
-  ('PIL.SgiImagePlugin',
+  ('PIL.PcdImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
    'PYMODULE'),
   ('PIL.PcxImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
    'PYMODULE'),
-  ('PIL.IcoImagePlugin',
+  ('PIL.MpegImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
    'PYMODULE'),
   ('PIL.SunImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
@@ -2996,9 +2936,37 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
    'PYMODULE'),
-  ('PIL.PalmImagePlugin',
+  ('PIL.EpsImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
    'PYMODULE'),
   ('PIL.SpiderImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
@@ -3008,13 +2976,41 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\ImageTk.py',
    'PYMODULE'),
-  ('PIL.BufrStubImagePlugin',
+  ('PIL.IcoImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
    'PYMODULE'),
-  ('PIL.XVThumbImagePlugin',
+  ('PIL.FtexImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
    'PYMODULE'),
   ('PIL.TiffImagePlugin',
    'c:\\program files (x86)\\microsoft visual '
@@ -4184,238 +4180,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\jsonschema\\validators.py',
    'PYMODULE'),
-  ('requests',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\__init__.py',
-   'PYMODULE'),
-  ('requests.status_codes',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\status_codes.py',
-   'PYMODULE'),
-  ('requests.structures',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\structures.py',
-   'PYMODULE'),
-  ('requests.compat',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\compat.py',
-   'PYMODULE'),
-  ('requests.api',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\api.py',
-   'PYMODULE'),
-  ('requests.sessions',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\sessions.py',
-   'PYMODULE'),
-  ('requests.adapters',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\adapters.py',
-   'PYMODULE'),
-  ('urllib3.contrib.socks',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\urllib3\\contrib\\socks.py',
-   'PYMODULE'),
-  ('requests._internal_utils',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\_internal_utils.py',
-   'PYMODULE'),
-  ('requests.hooks',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\hooks.py',
-   'PYMODULE'),
-  ('requests.cookies',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\cookies.py',
-   'PYMODULE'),
-  ('requests.auth',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\auth.py',
-   'PYMODULE'),
-  ('requests.models',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\models.py',
-   'PYMODULE'),
-  ('requests.packages',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\packages.py',
-   'PYMODULE'),
-  ('requests.utils',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\utils.py',
-   'PYMODULE'),
-  ('requests.certs',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\certs.py',
-   'PYMODULE'),
-  ('certifi',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\certifi\\__init__.py',
-   'PYMODULE'),
-  ('certifi.core',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\certifi\\core.py',
-   'PYMODULE'),
-  ('importlib.resources',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\importlib\\resources.py',
-   'PYMODULE'),
-  ('requests.__version__',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\__version__.py',
-   'PYMODULE'),
-  ('requests.exceptions',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\exceptions.py',
-   'PYMODULE'),
-  ('chardet',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\__init__.py',
-   'PYMODULE'),
-  ('chardet.version',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\version.py',
-   'PYMODULE'),
-  ('chardet.enums',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\enums.py',
-   'PYMODULE'),
-  ('chardet.universaldetector',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\universaldetector.py',
-   'PYMODULE'),
-  ('chardet.sbcsgroupprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\sbcsgroupprober.py',
-   'PYMODULE'),
-  ('chardet.sbcharsetprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\sbcharsetprober.py',
-   'PYMODULE'),
-  ('chardet.charsetprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\charsetprober.py',
-   'PYMODULE'),
-  ('chardet.langturkishmodel',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langturkishmodel.py',
-   'PYMODULE'),
-  ('chardet.langthaimodel',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langthaimodel.py',
-   'PYMODULE'),
-  ('chardet.langrussianmodel',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langrussianmodel.py',
-   'PYMODULE'),
-  ('chardet.langhebrewmodel',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langhebrewmodel.py',
-   'PYMODULE'),
-  ('chardet.langgreekmodel',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langgreekmodel.py',
-   'PYMODULE'),
-  ('chardet.langbulgarianmodel',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langbulgarianmodel.py',
-   'PYMODULE'),
-  ('chardet.hebrewprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\hebrewprober.py',
-   'PYMODULE'),
-  ('chardet.mbcsgroupprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\mbcsgroupprober.py',
-   'PYMODULE'),
-  ('chardet.euctwprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\euctwprober.py',
-   'PYMODULE'),
-  ('chardet.mbcssm',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\mbcssm.py',
-   'PYMODULE'),
-  ('chardet.chardistribution',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\chardistribution.py',
-   'PYMODULE'),
-  ('chardet.jisfreq',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\jisfreq.py',
-   'PYMODULE'),
-  ('chardet.big5freq',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\big5freq.py',
-   'PYMODULE'),
-  ('chardet.gb2312freq',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\gb2312freq.py',
-   'PYMODULE'),
-  ('chardet.euckrfreq',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\euckrfreq.py',
-   'PYMODULE'),
-  ('chardet.euctwfreq',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\euctwfreq.py',
-   'PYMODULE'),
-  ('chardet.codingstatemachine',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\codingstatemachine.py',
-   'PYMODULE'),
-  ('chardet.mbcharsetprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\mbcharsetprober.py',
-   'PYMODULE'),
-  ('chardet.big5prober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\big5prober.py',
-   'PYMODULE'),
-  ('chardet.cp949prober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\cp949prober.py',
-   'PYMODULE'),
-  ('chardet.euckrprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\euckrprober.py',
-   'PYMODULE'),
-  ('chardet.gb2312prober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\gb2312prober.py',
-   'PYMODULE'),
-  ('chardet.eucjpprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\eucjpprober.py',
-   'PYMODULE'),
-  ('chardet.jpcntx',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\jpcntx.py',
-   'PYMODULE'),
-  ('chardet.sjisprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\sjisprober.py',
-   'PYMODULE'),
-  ('chardet.utf8prober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\utf8prober.py',
-   'PYMODULE'),
-  ('chardet.latin1prober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\latin1prober.py',
-   'PYMODULE'),
-  ('chardet.escprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\escprober.py',
-   'PYMODULE'),
-  ('chardet.escsm',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\escsm.py',
-   'PYMODULE'),
-  ('chardet.charsetgroupprober',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\charsetgroupprober.py',
-   'PYMODULE'),
   ('jsonschema.compat',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\jsonschema\\compat.py',
@@ -4636,133 +4400,33 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\__init__.py',
    'PYMODULE'),
-  ('pygments.styles.algol_nu',
+  ('pygments.styles.emacs',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\algol_nu.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\emacs.py',
    'PYMODULE'),
   ('pygments.token',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\token.py',
    'PYMODULE'),
-  ('pygments.styles.rrt',
+  ('pygments.styles.manni',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\rrt.py',
-   'PYMODULE'),
-  ('pygments.styles.xcode',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\xcode.py',
-   'PYMODULE'),
-  ('pygments.styles.stata_light',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\stata_light.py',
-   'PYMODULE'),
-  ('pygments.styles.pastie',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\pastie.py',
-   'PYMODULE'),
-  ('pygments.styles.material',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\material.py',
-   'PYMODULE'),
-  ('pygments.styles.fruity',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\fruity.py',
-   'PYMODULE'),
-  ('pygments.styles.abap',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\abap.py',
-   'PYMODULE'),
-  ('pygments.styles.default',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\default.py',
-   'PYMODULE'),
-  ('pygments.styles',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\__init__.py',
-   'PYMODULE'),
-  ('pygments.styles.autumn',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\autumn.py',
-   'PYMODULE'),
-  ('pygments.styles.inkpot',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\inkpot.py',
-   'PYMODULE'),
-  ('pygments.styles.borland',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\borland.py',
-   'PYMODULE'),
-  ('pygments.styles.emacs',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\emacs.py',
-   'PYMODULE'),
-  ('pygments.styles.native',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\native.py',
-   'PYMODULE'),
-  ('pygments.styles.solarized',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\solarized.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\manni.py',
    'PYMODULE'),
   ('pygments.styles.sas',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\sas.py',
    'PYMODULE'),
-  ('pygments.styles.algol',
+  ('pygments.styles.pastie',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\algol.py',
-   'PYMODULE'),
-  ('pygments.styles.monokai',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\monokai.py',
-   'PYMODULE'),
-  ('pygments.styles.murphy',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\murphy.py',
-   'PYMODULE'),
-  ('pygments.styles.paraiso_dark',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\paraiso_dark.py',
-   'PYMODULE'),
-  ('pygments.styles.vim',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\vim.py',
-   'PYMODULE'),
-  ('pygments.styles.manni',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\manni.py',
-   'PYMODULE'),
-  ('pygments.styles.zenburn',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\zenburn.py',
-   'PYMODULE'),
-  ('pygments.styles.igor',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\igor.py',
-   'PYMODULE'),
-  ('pygments.styles.perldoc',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\perldoc.py',
-   'PYMODULE'),
-  ('pygments.styles.stata_dark',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\stata_dark.py',
-   'PYMODULE'),
-  ('pygments.styles.colorful',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\colorful.py',
-   'PYMODULE'),
-  ('pygments.styles.vs',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\vs.py',
-   'PYMODULE'),
-  ('pygments.styles.trac',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\trac.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\pastie.py',
    'PYMODULE'),
   ('pygments.styles.tango',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\tango.py',
+   'PYMODULE'),
+  ('pygments.styles.vim',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\vim.py',
    'PYMODULE'),
   ('pygments.styles.bw',
    'c:\\program files (x86)\\microsoft visual '
@@ -4772,13 +4436,41 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\arduino.py',
    'PYMODULE'),
+  ('pygments.styles.native',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\native.py',
+   'PYMODULE'),
   ('pygments.styles.friendly',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\friendly.py',
    'PYMODULE'),
-  ('pygments.styles.lovelace',
+  ('pygments.styles.zenburn',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\lovelace.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\zenburn.py',
+   'PYMODULE'),
+  ('pygments.styles.inkpot',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\inkpot.py',
+   'PYMODULE'),
+  ('pygments.styles.fruity',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\fruity.py',
+   'PYMODULE'),
+  ('pygments.styles.abap',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\abap.py',
+   'PYMODULE'),
+  ('pygments.styles.murphy',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\murphy.py',
+   'PYMODULE'),
+  ('pygments.styles',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\__init__.py',
+   'PYMODULE'),
+  ('pygments.styles.vs',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\vs.py',
    'PYMODULE'),
   ('pygments.styles.paraiso_light',
    'c:\\program files (x86)\\microsoft visual '
@@ -4788,13 +4480,237 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\rainbow_dash.py',
    'PYMODULE'),
-  ('pygments.lexers.c_cpp',
+  ('pygments.styles.stata_light',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\c_cpp.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\stata_light.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_dark',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\stata_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.rrt',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\rrt.py',
+   'PYMODULE'),
+  ('pygments.styles.borland',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\borland.py',
+   'PYMODULE'),
+  ('pygments.styles.lovelace',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\lovelace.py',
+   'PYMODULE'),
+  ('pygments.styles.default',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\default.py',
+   'PYMODULE'),
+  ('pygments.styles.monokai',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\monokai.py',
+   'PYMODULE'),
+  ('pygments.styles.xcode',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\xcode.py',
+   'PYMODULE'),
+  ('pygments.styles.colorful',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\colorful.py',
+   'PYMODULE'),
+  ('pygments.styles.solarized',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\solarized.py',
+   'PYMODULE'),
+  ('pygments.styles.paraiso_dark',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\paraiso_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.trac',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\trac.py',
+   'PYMODULE'),
+  ('pygments.styles.algol_nu',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\algol_nu.py',
+   'PYMODULE'),
+  ('pygments.styles.igor',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\igor.py',
+   'PYMODULE'),
+  ('pygments.styles.algol',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\algol.py',
+   'PYMODULE'),
+  ('pygments.styles.perldoc',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\perldoc.py',
+   'PYMODULE'),
+  ('pygments.styles.autumn',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\autumn.py',
+   'PYMODULE'),
+  ('pygments.styles.material',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\styles\\material.py',
+   'PYMODULE'),
+  ('pygments.lexers._lua_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_lua_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.whiley',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\whiley.py',
    'PYMODULE'),
   ('pygments.lexer',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexer.py',
+   'PYMODULE'),
+  ('chardet',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\__init__.py',
+   'PYMODULE'),
+  ('chardet.version',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\version.py',
+   'PYMODULE'),
+  ('chardet.enums',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\enums.py',
+   'PYMODULE'),
+  ('chardet.universaldetector',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\universaldetector.py',
+   'PYMODULE'),
+  ('chardet.sbcsgroupprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\sbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.sbcharsetprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\sbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.charsetprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\charsetprober.py',
+   'PYMODULE'),
+  ('chardet.langturkishmodel',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langturkishmodel.py',
+   'PYMODULE'),
+  ('chardet.langthaimodel',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langthaimodel.py',
+   'PYMODULE'),
+  ('chardet.langrussianmodel',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langrussianmodel.py',
+   'PYMODULE'),
+  ('chardet.langhebrewmodel',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langhebrewmodel.py',
+   'PYMODULE'),
+  ('chardet.langgreekmodel',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langgreekmodel.py',
+   'PYMODULE'),
+  ('chardet.langbulgarianmodel',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\langbulgarianmodel.py',
+   'PYMODULE'),
+  ('chardet.hebrewprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\hebrewprober.py',
+   'PYMODULE'),
+  ('chardet.mbcsgroupprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\mbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.euctwprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\euctwprober.py',
+   'PYMODULE'),
+  ('chardet.mbcssm',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\mbcssm.py',
+   'PYMODULE'),
+  ('chardet.chardistribution',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\chardistribution.py',
+   'PYMODULE'),
+  ('chardet.jisfreq',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\jisfreq.py',
+   'PYMODULE'),
+  ('chardet.big5freq',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\big5freq.py',
+   'PYMODULE'),
+  ('chardet.gb2312freq',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\gb2312freq.py',
+   'PYMODULE'),
+  ('chardet.euckrfreq',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\euckrfreq.py',
+   'PYMODULE'),
+  ('chardet.euctwfreq',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\euctwfreq.py',
+   'PYMODULE'),
+  ('chardet.codingstatemachine',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\codingstatemachine.py',
+   'PYMODULE'),
+  ('chardet.mbcharsetprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\mbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.big5prober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\big5prober.py',
+   'PYMODULE'),
+  ('chardet.cp949prober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\cp949prober.py',
+   'PYMODULE'),
+  ('chardet.euckrprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\euckrprober.py',
+   'PYMODULE'),
+  ('chardet.gb2312prober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\gb2312prober.py',
+   'PYMODULE'),
+  ('chardet.eucjpprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\eucjpprober.py',
+   'PYMODULE'),
+  ('chardet.jpcntx',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\jpcntx.py',
+   'PYMODULE'),
+  ('chardet.sjisprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\sjisprober.py',
+   'PYMODULE'),
+  ('chardet.utf8prober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\utf8prober.py',
+   'PYMODULE'),
+  ('chardet.latin1prober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\latin1prober.py',
+   'PYMODULE'),
+  ('chardet.escprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\escprober.py',
+   'PYMODULE'),
+  ('chardet.escsm',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\escsm.py',
+   'PYMODULE'),
+  ('chardet.charsetgroupprober',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\chardet\\charsetgroupprober.py',
    'PYMODULE'),
   ('pygments.regexopt',
    'c:\\program files (x86)\\microsoft visual '
@@ -4808,69 +4724,109 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\filter.py',
    'PYMODULE'),
-  ('pygments.lexers.ecl',
+  ('pygments.lexers.tcl',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ecl.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\tcl.py',
+   'PYMODULE'),
+  ('pygments.lexers.csound',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\csound.py',
+   'PYMODULE'),
+  ('pygments.lexers._openedge_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_openedge_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._php_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_php_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.bare',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\bare.py',
    'PYMODULE'),
   ('pygments.lexers.dalvik',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\dalvik.py',
    'PYMODULE'),
-  ('pygments.lexers.rebol',
+  ('pygments.lexers._vbscript_builtins',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\rebol.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_vbscript_builtins.py',
    'PYMODULE'),
-  ('pygments.lexers.basic',
+  ('pygments.lexers.floscript',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\basic.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\floscript.py',
    'PYMODULE'),
-  ('pygments.lexers.crystal',
+  ('pygments.lexers.web',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\crystal.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\web.py',
    'PYMODULE'),
-  ('pygments.lexers._cocoa_builtins',
+  ('pygments.lexers.r',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_cocoa_builtins.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\r.py',
    'PYMODULE'),
-  ('pygments.lexers.j',
+  ('pygments.lexers.dotnet',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\j.py',
-   'PYMODULE'),
-  ('pygments.lexers.webmisc',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\webmisc.py',
-   'PYMODULE'),
-  ('pygments.lexers.yang',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\yang.py',
-   'PYMODULE'),
-  ('pygments.lexers.hdl',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\hdl.py',
-   'PYMODULE'),
-  ('pygments.lexers.arrow',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\arrow.py',
-   'PYMODULE'),
-  ('pygments.lexers.cddl',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\cddl.py',
-   'PYMODULE'),
-  ('pygments.lexers.usd',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\usd.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\dotnet.py',
    'PYMODULE'),
   ('pygments.lexers._usd_builtins',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_usd_builtins.py',
    'PYMODULE'),
-  ('pygments.lexers.amdgpu',
+  ('pygments.lexers.igor',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\amdgpu.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\igor.py',
    'PYMODULE'),
-  ('pygments.lexers.scripting',
+  ('pygments.lexers.factor',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\scripting.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\factor.py',
+   'PYMODULE'),
+  ('pygments.lexers.hexdump',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\hexdump.py',
+   'PYMODULE'),
+  ('pygments.lexers._mysql_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_mysql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.ride',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ride.py',
+   'PYMODULE'),
+  ('pygments.lexers.crystal',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\crystal.py',
+   'PYMODULE'),
+  ('pygments.lexers.prolog',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\prolog.py',
+   'PYMODULE'),
+  ('pygments.lexers.arrow',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\arrow.py',
+   'PYMODULE'),
+  ('pygments.lexers.css',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\css.py',
+   'PYMODULE'),
+  ('pygments.lexers.modula2',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\modula2.py',
+   'PYMODULE'),
+  ('pygments.lexers.cddl',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\cddl.py',
+   'PYMODULE'),
+  ('pygments.lexers.objective',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\objective.py',
+   'PYMODULE'),
+  ('pygments.lexers.basic',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\basic.py',
+   'PYMODULE'),
+  ('pygments.lexers.html',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\html.py',
    'PYMODULE'),
   ('pygments.lexers.pascal',
    'c:\\program files (x86)\\microsoft visual '
@@ -4880,465 +4836,229 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\scanner.py',
    'PYMODULE'),
-  ('pygments.lexers._csound_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_csound_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.urbi',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\urbi.py',
-   'PYMODULE'),
-  ('pygments.lexers.nit',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\nit.py',
-   'PYMODULE'),
-  ('pygments.lexers._vbscript_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_vbscript_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.qvt',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\qvt.py',
-   'PYMODULE'),
-  ('pygments.lexers.ride',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ride.py',
-   'PYMODULE'),
-  ('pygments.lexers.dylan',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\dylan.py',
-   'PYMODULE'),
-  ('pygments.lexers.igor',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\igor.py',
-   'PYMODULE'),
-  ('pygments.lexers.textfmts',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\textfmts.py',
-   'PYMODULE'),
-  ('pygments.lexers._openedge_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_openedge_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.forth',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\forth.py',
-   'PYMODULE'),
-  ('pygments.lexers.floscript',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\floscript.py',
-   'PYMODULE'),
-  ('pygments.lexers.d',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\d.py',
-   'PYMODULE'),
-  ('pygments.lexers.automation',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\automation.py',
-   'PYMODULE'),
-  ('pygments.lexers.xorg',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\xorg.py',
-   'PYMODULE'),
-  ('pygments.lexers.javascript',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\javascript.py',
-   'PYMODULE'),
-  ('pygments.unistring',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\unistring.py',
-   'PYMODULE'),
-  ('pygments.lexers.algebra',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\algebra.py',
-   'PYMODULE'),
-  ('pygments.lexers.bare',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\bare.py',
-   'PYMODULE'),
-  ('pygments.lexers.r',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\r.py',
-   'PYMODULE'),
-  ('pygments.lexers.smv',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\smv.py',
-   'PYMODULE'),
-  ('pygments.lexers.haxe',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\haxe.py',
-   'PYMODULE'),
-  ('pygments.lexers.modula2',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\modula2.py',
-   'PYMODULE'),
-  ('pygments.lexers.promql',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\promql.py',
-   'PYMODULE'),
-  ('pygments.lexers.sieve',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\sieve.py',
-   'PYMODULE'),
-  ('pygments.lexers.graphviz',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\graphviz.py',
-   'PYMODULE'),
-  ('pygments.lexers.special',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\special.py',
-   'PYMODULE'),
-  ('pygments.lexers.felix',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\felix.py',
-   'PYMODULE'),
-  ('pygments.lexers.devicetree',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\devicetree.py',
-   'PYMODULE'),
-  ('pygments.lexers._sourcemod_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_sourcemod_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.textedit',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\textedit.py',
-   'PYMODULE'),
-  ('pygments.lexers.graph',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\graph.py',
-   'PYMODULE'),
-  ('pygments.lexers._mysql_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_mysql_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.fantom',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\fantom.py',
-   'PYMODULE'),
-  ('pygments.lexers.tcl',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\tcl.py',
-   'PYMODULE'),
-  ('pygments.lexers.nix',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\nix.py',
-   'PYMODULE'),
-  ('pygments.lexers.gdscript',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\gdscript.py',
-   'PYMODULE'),
-  ('pygments.lexers.typoscript',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\typoscript.py',
-   'PYMODULE'),
-  ('pygments.lexers.python',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\python.py',
-   'PYMODULE'),
-  ('pygments.lexers.foxpro',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\foxpro.py',
-   'PYMODULE'),
-  ('pygments.lexers.other',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\other.py',
-   'PYMODULE'),
-  ('pygments.lexers.jvm',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\jvm.py',
-   'PYMODULE'),
-  ('pygments.lexers._stan_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_stan_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.html',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\html.py',
-   'PYMODULE'),
-  ('pygments.lexers.erlang',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\erlang.py',
-   'PYMODULE'),
-  ('pygments.lexers.whiley',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\whiley.py',
-   'PYMODULE'),
-  ('pygments.lexers.webidl',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\webidl.py',
-   'PYMODULE'),
-  ('pygments.lexers.ruby',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ruby.py',
-   'PYMODULE'),
-  ('pygments.lexers.c_like',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\c_like.py',
-   'PYMODULE'),
-  ('pygments.lexers.inferno',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\inferno.py',
-   'PYMODULE'),
-  ('pygments.lexers._scilab_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_scilab_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.console',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\console.py',
-   'PYMODULE'),
-  ('pygments.lexers.rust',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\rust.py',
-   'PYMODULE'),
-  ('pygments.lexers._asy_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_asy_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.pony',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\pony.py',
-   'PYMODULE'),
-  ('pygments.lexers.dotnet',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\dotnet.py',
-   'PYMODULE'),
-  ('pygments.lexers._tsql_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_tsql_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.ampl',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ampl.py',
-   'PYMODULE'),
-  ('pygments.lexers.freefem',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\freefem.py',
-   'PYMODULE'),
-  ('pygments.lexers.markup',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\markup.py',
-   'PYMODULE'),
-  ('pygments.lexers.trafficscript',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\trafficscript.py',
-   'PYMODULE'),
-  ('pygments.lexers.email',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\email.py',
-   'PYMODULE'),
-  ('pygments.lexers.php',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\php.py',
-   'PYMODULE'),
-  ('pygments.lexers.resource',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\resource.py',
-   'PYMODULE'),
-  ('pygments.lexers.math',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\math.py',
-   'PYMODULE'),
-  ('pygments.lexers.functional',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\functional.py',
-   'PYMODULE'),
-  ('pygments.lexers.agile',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\agile.py',
-   'PYMODULE'),
-  ('pygments.lexers.unicon',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\unicon.py',
-   'PYMODULE'),
-  ('pygments.lexers.boa',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\boa.py',
-   'PYMODULE'),
-  ('pygments.lexers.x10',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\x10.py',
-   'PYMODULE'),
-  ('pygments.lexers.futhark',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\futhark.py',
-   'PYMODULE'),
-  ('pygments.lexers.scdoc',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\scdoc.py',
-   'PYMODULE'),
-  ('pygments.lexers.text',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\text.py',
-   'PYMODULE'),
-  ('pygments.lexers.snobol',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\snobol.py',
-   'PYMODULE'),
-  ('pygments.lexers.hexdump',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\hexdump.py',
-   'PYMODULE'),
-  ('pygments.lexers.parasail',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\parasail.py',
-   'PYMODULE'),
   ('pygments.lexers.julia',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\julia.py',
    'PYMODULE'),
-  ('pygments.lexers.int_fiction',
+  ('pygments.lexers.ooc',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\int_fiction.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ooc.py',
    'PYMODULE'),
-  ('pygments.lexers.idl',
+  ('pygments.lexers.perl',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\idl.py',
-   'PYMODULE'),
-  ('pygments.lexers.capnproto',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\capnproto.py',
-   'PYMODULE'),
-  ('pygments.lexers.apl',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\apl.py',
-   'PYMODULE'),
-  ('pygments.lexers.tnt',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\tnt.py',
-   'PYMODULE'),
-  ('pygments.lexers.haskell',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\haskell.py',
-   'PYMODULE'),
-  ('pygments.lexers.css',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\css.py',
-   'PYMODULE'),
-  ('pygments.lexers.pointless',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\pointless.py',
-   'PYMODULE'),
-  ('pygments.lexers.praat',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\praat.py',
-   'PYMODULE'),
-  ('pygments.lexers.eiffel',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\eiffel.py',
-   'PYMODULE'),
-  ('pygments.lexers.verification',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\verification.py',
-   'PYMODULE'),
-  ('pygments.lexers.grammar_notation',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\grammar_notation.py',
-   'PYMODULE'),
-  ('pygments.lexers.supercollider',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\supercollider.py',
-   'PYMODULE'),
-  ('pygments.lexers.chapel',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\chapel.py',
-   'PYMODULE'),
-  ('pygments.lexers.iolang',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\iolang.py',
-   'PYMODULE'),
-  ('pygments.lexers.diff',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\diff.py',
-   'PYMODULE'),
-  ('pygments.lexers.templates',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\templates.py',
-   'PYMODULE'),
-  ('pygments.lexers.smalltalk',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\smalltalk.py',
-   'PYMODULE'),
-  ('pygments.lexers.clean',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\clean.py',
-   'PYMODULE'),
-  ('pygments.lexers.prolog',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\prolog.py',
-   'PYMODULE'),
-  ('pygments.lexers._php_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_php_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.testing',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\testing.py',
-   'PYMODULE'),
-  ('pygments.lexers.sql',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\sql.py',
-   'PYMODULE'),
-  ('pygments.lexers.theorem',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\theorem.py',
-   'PYMODULE'),
-  ('pygments.lexers._cl_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_cl_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.modeling',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\modeling.py',
-   'PYMODULE'),
-  ('pygments.lexers.make',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\make.py',
-   'PYMODULE'),
-  ('pygments.lexers.varnish',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\varnish.py',
-   'PYMODULE'),
-  ('pygments.lexers.sgf',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\sgf.py',
-   'PYMODULE'),
-  ('pygments.lexers.parsers',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\parsers.py',
-   'PYMODULE'),
-  ('pygments.lexers.elm',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\elm.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\perl.py',
    'PYMODULE'),
   ('pygments.lexers.ncl',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ncl.py',
    'PYMODULE'),
-  ('pygments.lexers.monte',
+  ('pygments.lexers.dsls',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\monte.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\dsls.py',
    'PYMODULE'),
-  ('pygments.lexers._stata_builtins',
+  ('pygments.lexers.asm',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_stata_builtins.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\asm.py',
+   'PYMODULE'),
+  ('pygments.lexers.yang',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\yang.py',
+   'PYMODULE'),
+  ('pygments.lexers.php',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\php.py',
+   'PYMODULE'),
+  ('pygments.lexers.varnish',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\varnish.py',
+   'PYMODULE'),
+  ('pygments.lexers.parsers',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\parsers.py',
+   'PYMODULE'),
+  ('pygments.lexers.roboconf',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\roboconf.py',
+   'PYMODULE'),
+  ('pygments.lexers.felix',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\felix.py',
+   'PYMODULE'),
+  ('pygments.lexers.j',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\j.py',
+   'PYMODULE'),
+  ('pygments.lexers.usd',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\usd.py',
+   'PYMODULE'),
+  ('pygments.lexers.parasail',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\parasail.py',
+   'PYMODULE'),
+  ('pygments.lexers.diff',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\diff.py',
+   'PYMODULE'),
+  ('pygments.lexers.data',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\data.py',
+   'PYMODULE'),
+  ('pygments.lexers.sql',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\sql.py',
+   'PYMODULE'),
+  ('pygments.lexers.urbi',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\urbi.py',
+   'PYMODULE'),
+  ('pygments.lexers.teraterm',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\teraterm.py',
+   'PYMODULE'),
+  ('pygments.lexers.qvt',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\qvt.py',
+   'PYMODULE'),
+  ('pygments.lexers.markup',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\markup.py',
+   'PYMODULE'),
+  ('pygments.lexers._asy_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_asy_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.oberon',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\oberon.py',
    'PYMODULE'),
   ('pygments.lexers._postgres_builtins',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_postgres_builtins.py',
    'PYMODULE'),
+  ('pygments.lexers.text',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\text.py',
+   'PYMODULE'),
+  ('pygments.lexers.solidity',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\solidity.py',
+   'PYMODULE'),
+  ('pygments.lexers.pointless',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\pointless.py',
+   'PYMODULE'),
+  ('pygments.lexers.futhark',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\futhark.py',
+   'PYMODULE'),
+  ('pygments.lexers.forth',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\forth.py',
+   'PYMODULE'),
+  ('pygments.lexers._mapping',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_mapping.py',
+   'PYMODULE'),
+  ('pygments.lexers.rdf',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\rdf.py',
+   'PYMODULE'),
+  ('pygments.lexers.matlab',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\matlab.py',
+   'PYMODULE'),
+  ('pygments.lexers.apl',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\apl.py',
+   'PYMODULE'),
+  ('pygments.lexers.gdscript',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\gdscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.textfmts',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\textfmts.py',
+   'PYMODULE'),
+  ('pygments.lexers.javascript',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\javascript.py',
+   'PYMODULE'),
+  ('pygments.lexers.devicetree',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\devicetree.py',
+   'PYMODULE'),
   ('pygments.lexers.compiled',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\compiled.py',
    'PYMODULE'),
-  ('pygments.lexers.ezhil',
+  ('pygments.lexers._sourcemod_builtins',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ezhil.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_sourcemod_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.email',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\email.py',
+   'PYMODULE'),
+  ('pygments.lexers.python',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\python.py',
+   'PYMODULE'),
+  ('pygments.lexers.robotframework',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\robotframework.py',
+   'PYMODULE'),
+  ('pygments.lexers.stata',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\stata.py',
+   'PYMODULE'),
+  ('pygments.lexers.grammar_notation',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\grammar_notation.py',
+   'PYMODULE'),
+  ('pygments.lexers.ampl',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ampl.py',
+   'PYMODULE'),
+  ('pygments.lexers.ecl',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ecl.py',
+   'PYMODULE'),
+  ('pygments.lexers.math',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\math.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_cpp',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\c_cpp.py',
+   'PYMODULE'),
+  ('pygments.lexers.chapel',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\chapel.py',
+   'PYMODULE'),
+  ('pygments.lexers.dylan',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\dylan.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_like',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\c_like.py',
    'PYMODULE'),
   ('pygments.lexers.fortran',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\fortran.py',
+   'PYMODULE'),
+  ('pygments.lexers.go',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\go.py',
+   'PYMODULE'),
+  ('pygments.lexers.freefem',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\freefem.py',
+   'PYMODULE'),
+  ('pygments.lexers.ambient',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ambient.py',
    'PYMODULE'),
   ('pygments.lexers',
    'c:\\program files (x86)\\microsoft visual '
@@ -5348,213 +5068,401 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\modeline.py',
    'PYMODULE'),
-  ('pygments.lexers.actionscript',
+  ('pygments.lexers.console',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\actionscript.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\console.py',
    'PYMODULE'),
-  ('pygments.lexers.web',
+  ('pygments.lexers.fantom',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\web.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\fantom.py',
    'PYMODULE'),
-  ('pygments.lexers.robotframework',
+  ('pygments.lexers.webmisc',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\robotframework.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\webmisc.py',
    'PYMODULE'),
-  ('pygments.lexers._lua_builtins',
+  ('pygments.lexers.haxe',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_lua_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.zig',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\zig.py',
-   'PYMODULE'),
-  ('pygments.lexers.esoteric',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\esoteric.py',
-   'PYMODULE'),
-  ('pygments.lexers.data',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\data.py',
-   'PYMODULE'),
-  ('pygments.lexers.shell',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\shell.py',
-   'PYMODULE'),
-  ('pygments.lexers.sas',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\sas.py',
-   'PYMODULE'),
-  ('pygments.lexers.perl',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\perl.py',
-   'PYMODULE'),
-  ('pygments.lexers._vim_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_vim_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.bibtex',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\bibtex.py',
-   'PYMODULE'),
-  ('pygments.lexers.roboconf',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\roboconf.py',
-   'PYMODULE'),
-  ('pygments.lexers.factor',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\factor.py',
-   'PYMODULE'),
-  ('pygments.lexers.slash',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\slash.py',
-   'PYMODULE'),
-  ('pygments.lexers.ooc',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ooc.py',
-   'PYMODULE'),
-  ('pygments.lexers.ambient',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ambient.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\haxe.py',
    'PYMODULE'),
   ('pygments.lexers.mime',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\mime.py',
    'PYMODULE'),
-  ('pygments.lexers.rdf',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\rdf.py',
-   'PYMODULE'),
-  ('pygments.lexers.mosel',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\mosel.py',
-   'PYMODULE'),
   ('pygments.lexers.archetype',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\archetype.py',
-   'PYMODULE'),
-  ('pygments.lexers.lisp',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\lisp.py',
-   'PYMODULE'),
-  ('pygments.lexers.asm',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\asm.py',
    'PYMODULE'),
   ('pygments.lexers.business',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\business.py',
    'PYMODULE'),
-  ('pygments.lexers.go',
+  ('pygments.lexers.automation',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\go.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\automation.py',
    'PYMODULE'),
-  ('pygments.lexers.objective',
+  ('pygments.lexers.praat',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\objective.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\praat.py',
+   'PYMODULE'),
+  ('pygments.lexers.smalltalk',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\smalltalk.py',
+   'PYMODULE'),
+  ('pygments.lexers.modeling',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\modeling.py',
+   'PYMODULE'),
+  ('pygments.lexers.verification',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\verification.py',
+   'PYMODULE'),
+  ('pygments.lexers.lisp',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\lisp.py',
+   'PYMODULE'),
+  ('pygments.lexers.sgf',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\sgf.py',
+   'PYMODULE'),
+  ('pygments.lexers.sas',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\sas.py',
+   'PYMODULE'),
+  ('pygments.lexers.esoteric',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\esoteric.py',
+   'PYMODULE'),
+  ('pygments.lexers._tsql_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_tsql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._vim_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_vim_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.agile',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\agile.py',
+   'PYMODULE'),
+  ('pygments.lexers.trafficscript',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\trafficscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.theorem',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\theorem.py',
+   'PYMODULE'),
+  ('pygments.lexers.mosel',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\mosel.py',
+   'PYMODULE'),
+  ('pygments.lexers.x10',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\x10.py',
+   'PYMODULE'),
+  ('pygments.lexers._stata_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_stata_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.monte',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\monte.py',
+   'PYMODULE'),
+  ('pygments.lexers.webidl',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\webidl.py',
+   'PYMODULE'),
+  ('pygments.lexers.scripting',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\scripting.py',
    'PYMODULE'),
   ('pygments.lexers.rnc',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\rnc.py',
    'PYMODULE'),
-  ('pygments.lexers.teraterm',
+  ('pygments.lexers.boa',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\teraterm.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\boa.py',
    'PYMODULE'),
-  ('pygments.lexers.installers',
+  ('pygments.lexers.amdgpu',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\installers.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\amdgpu.py',
    'PYMODULE'),
-  ('pygments.lexers.pawn',
+  ('pygments.lexers.clean',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\pawn.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\clean.py',
    'PYMODULE'),
-  ('pygments.lexers.matlab',
+  ('pygments.lexers.unicon',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\matlab.py',
-   'PYMODULE'),
-  ('pygments.lexers.graphics',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\graphics.py',
-   'PYMODULE'),
-  ('pygments.lexers._lasso_builtins',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_lasso_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.dsls',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\dsls.py',
-   'PYMODULE'),
-  ('pygments.lexers.csound',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\csound.py',
-   'PYMODULE'),
-  ('pygments.lexers._mapping',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_mapping.py',
-   'PYMODULE'),
-  ('pygments.lexers.nimrod',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\nimrod.py',
-   'PYMODULE'),
-  ('pygments.lexers.solidity',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\solidity.py',
-   'PYMODULE'),
-  ('pygments.lexers.stata',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\stata.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\unicon.py',
    'PYMODULE'),
   ('pygments.lexers.configs',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\configs.py',
    'PYMODULE'),
-  ('pygments.lexers.oberon',
+  ('pygments.lexers._cocoa_builtins',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\oberon.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_cocoa_builtins.py',
    'PYMODULE'),
-  ('pygments.lexers.ml',
+  ('pygments.lexers.pawn',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ml.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\pawn.py',
+   'PYMODULE'),
+  ('pygments.lexers.haskell',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\haskell.py',
+   'PYMODULE'),
+  ('pygments.lexers.templates',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\templates.py',
    'PYMODULE'),
   ('pygments.lexers._mql_builtins',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_mql_builtins.py',
    'PYMODULE'),
-  ('pygments.formatters.rtf',
+  ('pygments.lexers.textedit',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\rtf.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\textedit.py',
+   'PYMODULE'),
+  ('pygments.lexers.snobol',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\snobol.py',
+   'PYMODULE'),
+  ('pygments.lexers._scilab_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_scilab_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.rebol',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\rebol.py',
+   'PYMODULE'),
+  ('pygments.lexers.ml',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ml.py',
+   'PYMODULE'),
+  ('pygments.lexers.other',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\other.py',
+   'PYMODULE'),
+  ('pygments.lexers.int_fiction',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\int_fiction.py',
+   'PYMODULE'),
+  ('pygments.lexers.smv',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\smv.py',
+   'PYMODULE'),
+  ('pygments.lexers.eiffel',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\eiffel.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphviz',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\graphviz.py',
+   'PYMODULE'),
+  ('pygments.lexers.nimrod',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\nimrod.py',
+   'PYMODULE'),
+  ('pygments.lexers.elm',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\elm.py',
+   'PYMODULE'),
+  ('pygments.lexers.bibtex',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\bibtex.py',
+   'PYMODULE'),
+  ('pygments.lexers._lasso_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_lasso_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.actionscript',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\actionscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.xorg',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\xorg.py',
+   'PYMODULE'),
+  ('pygments.lexers.slash',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\slash.py',
+   'PYMODULE'),
+  ('pygments.lexers.jvm',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\jvm.py',
+   'PYMODULE'),
+  ('pygments.lexers.resource',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\resource.py',
+   'PYMODULE'),
+  ('pygments.lexers.rust',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\rust.py',
+   'PYMODULE'),
+  ('pygments.lexers.erlang',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\erlang.py',
+   'PYMODULE'),
+  ('pygments.lexers.d',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\d.py',
+   'PYMODULE'),
+  ('pygments.lexers.functional',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\functional.py',
+   'PYMODULE'),
+  ('pygments.unistring',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\unistring.py',
+   'PYMODULE'),
+  ('pygments.lexers.hdl',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\hdl.py',
+   'PYMODULE'),
+  ('pygments.lexers.scdoc',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\scdoc.py',
+   'PYMODULE'),
+  ('pygments.lexers._stan_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_stan_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.foxpro',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\foxpro.py',
+   'PYMODULE'),
+  ('pygments.lexers.graph',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\graph.py',
+   'PYMODULE'),
+  ('pygments.lexers.promql',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\promql.py',
+   'PYMODULE'),
+  ('pygments.lexers.pony',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\pony.py',
+   'PYMODULE'),
+  ('pygments.lexers._cl_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_cl_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._csound_builtins',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\_csound_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.algebra',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\algebra.py',
+   'PYMODULE'),
+  ('pygments.lexers.special',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\special.py',
+   'PYMODULE'),
+  ('pygments.lexers.supercollider',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\supercollider.py',
+   'PYMODULE'),
+  ('pygments.lexers.iolang',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\iolang.py',
+   'PYMODULE'),
+  ('pygments.lexers.ruby',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ruby.py',
+   'PYMODULE'),
+  ('pygments.lexers.inferno',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\inferno.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphics',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\graphics.py',
+   'PYMODULE'),
+  ('pygments.lexers.idl',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\idl.py',
+   'PYMODULE'),
+  ('pygments.lexers.capnproto',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\capnproto.py',
+   'PYMODULE'),
+  ('pygments.lexers.nix',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\nix.py',
+   'PYMODULE'),
+  ('pygments.lexers.make',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\make.py',
+   'PYMODULE'),
+  ('pygments.lexers.nit',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\nit.py',
+   'PYMODULE'),
+  ('pygments.lexers.typoscript',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\typoscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.tnt',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\tnt.py',
+   'PYMODULE'),
+  ('pygments.lexers.testing',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\testing.py',
+   'PYMODULE'),
+  ('pygments.lexers.installers',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\installers.py',
+   'PYMODULE'),
+  ('pygments.lexers.zig',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\zig.py',
+   'PYMODULE'),
+  ('pygments.lexers.shell',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\shell.py',
+   'PYMODULE'),
+  ('pygments.lexers.ezhil',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\ezhil.py',
+   'PYMODULE'),
+  ('pygments.lexers.sieve',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\lexers\\sieve.py',
+   'PYMODULE'),
+  ('pygments.formatters.html',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\html.py',
    'PYMODULE'),
   ('pygments.formatter',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatter.py',
    'PYMODULE'),
-  ('pygments.formatters.terminal256',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\terminal256.py',
-   'PYMODULE'),
-  ('pygments.console',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\console.py',
-   'PYMODULE'),
-  ('pygments.formatters.bbcode',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\bbcode.py',
-   'PYMODULE'),
   ('pygments.formatters.latex',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\latex.py',
-   'PYMODULE'),
-  ('pygments.formatters.other',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\other.py',
    'PYMODULE'),
   ('pygments.formatters.terminal',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\terminal.py',
    'PYMODULE'),
-  ('pygments.formatters.html',
+  ('pygments.console',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\html.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\console.py',
+   'PYMODULE'),
+  ('pygments.formatters.other',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\other.py',
+   'PYMODULE'),
+  ('pygments.formatters.img',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\img.py',
+   'PYMODULE'),
+  ('pygments.formatters.terminal256',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\terminal256.py',
    'PYMODULE'),
   ('pygments.formatters.irc',
    'c:\\program files (x86)\\microsoft visual '
@@ -5564,9 +5472,13 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\svg.py',
    'PYMODULE'),
-  ('pygments.formatters.img',
+  ('pygments.formatters.bbcode',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\img.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\bbcode.py',
+   'PYMODULE'),
+  ('pygments.formatters.rtf',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pygments\\formatters\\rtf.py',
    'PYMODULE'),
   ('notebook',
    'c:\\program files (x86)\\microsoft visual '
@@ -8033,6 +7945,18 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\matplotlib\\style\\core.py',
    'PYMODULE'),
+  ('certifi',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\importlib\\resources.py',
+   'PYMODULE'),
   ('matplotlib._version',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\matplotlib\\_version.py',
@@ -8641,13 +8565,13 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pandas\\__init__.py',
    'PYMODULE'),
-  ('pandas._libs.window',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
-   'PYMODULE'),
   ('pandas._libs.tslibs',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
    'PYMODULE'),
   ('pandas._version',
    'c:\\program files (x86)\\microsoft visual '
@@ -10437,62 +10361,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pandas\\io\\html.py',
    'PYMODULE'),
-  ('bs4',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\__init__.py',
-   'PYMODULE'),
-  ('bs4.element',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\element.py',
-   'PYMODULE'),
-  ('bs4.formatter',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\formatter.py',
-   'PYMODULE'),
-  ('soupsieve',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\__init__.py',
-   'PYMODULE'),
-  ('soupsieve.css_parser',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\css_parser.py',
-   'PYMODULE'),
-  ('soupsieve.css_match',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\css_match.py',
-   'PYMODULE'),
-  ('soupsieve.css_types',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\css_types.py',
-   'PYMODULE'),
-  ('soupsieve.util',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\util.py',
-   'PYMODULE'),
-  ('soupsieve.__meta__',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\__meta__.py',
-   'PYMODULE'),
-  ('bs4.dammit',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\dammit.py',
-   'PYMODULE'),
-  ('bs4.builder',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\builder\\__init__.py',
-   'PYMODULE'),
-  ('bs4.builder._lxml',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\builder\\_lxml.py',
-   'PYMODULE'),
-  ('bs4.builder._html5lib',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\builder\\_html5lib.py',
-   'PYMODULE'),
-  ('bs4.builder._htmlparser',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\builder\\_htmlparser.py',
-   'PYMODULE'),
   ('pandas.util._print_versions',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pandas\\util\\_print_versions.py',
@@ -10568,6 +10436,138 @@
   ('pandas.compat.numpy',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('bs4',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\__init__.py',
+   'PYMODULE'),
+  ('bs4.element',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\element.py',
+   'PYMODULE'),
+  ('bs4.formatter',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\formatter.py',
+   'PYMODULE'),
+  ('soupsieve',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\__init__.py',
+   'PYMODULE'),
+  ('soupsieve.css_parser',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\css_parser.py',
+   'PYMODULE'),
+  ('soupsieve.css_match',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\css_match.py',
+   'PYMODULE'),
+  ('soupsieve.css_types',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\css_types.py',
+   'PYMODULE'),
+  ('soupsieve.util',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\util.py',
+   'PYMODULE'),
+  ('soupsieve.__meta__',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\soupsieve\\__meta__.py',
+   'PYMODULE'),
+  ('bs4.dammit',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\dammit.py',
+   'PYMODULE'),
+  ('bs4.builder',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\builder\\__init__.py',
+   'PYMODULE'),
+  ('bs4.builder._lxml',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\builder\\_lxml.py',
+   'PYMODULE'),
+  ('bs4.builder._html5lib',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\builder\\_html5lib.py',
+   'PYMODULE'),
+  ('bs4.builder._htmlparser',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\bs4\\builder\\_htmlparser.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\random.py',
+   'PYMODULE'),
+  ('requests',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('requests.api',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests.models',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\requests\\exceptions.py',
    'PYMODULE'),
   ('json',
    'c:\\program files (x86)\\microsoft visual '
