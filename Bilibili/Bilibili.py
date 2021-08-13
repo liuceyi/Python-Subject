@@ -43,7 +43,7 @@ class BiliBiliLive(BiliBili):
         #BiliBili初始化
         BiliBili.__init__(self)
         self.target = target #target为直播间号
-        self.session = requests.Session() #启动弹幕读取session
+        
 
 
 class BiliBiliAchive(BiliBili):

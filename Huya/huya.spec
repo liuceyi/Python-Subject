@@ -1,9 +1,10 @@
 # -*- mode: python ; coding: utf-8 -*-
-
+import sys
+sys.setrecursionlimit(sys.getrecursionlimit() * 5)
 block_cipher = None
 
 
-a = Analysis(['huya.py'],
+a = Analysis(['Huya.py'],
              pathex=['C:\\Users\\Administrator\\Desktop\\Python Subject\\Huya'],
              binaries=[],
              datas=[],
@@ -23,7 +24,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='huya',
+          name='Huya',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
