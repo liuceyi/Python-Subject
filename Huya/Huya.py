@@ -395,12 +395,16 @@ class IPPool(object):
         self.url = 'https://www.kuaidaili.com/free/inha/'
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+            'Connection':'close'
         }
         self.LoadProxies()
     
     def Connect(self, page='1'):
         url = self.url + str(page)
-        req = requests.get(self.url, headers=self.headers)
+        requests.adapters.DEFAULT_RETRIES = 5
+        s = requests.session()
+        s.keep_alive = False
+        req = requests.get(self.url, headers=self.headers, verify=False)
         soup = BeautifulSoup(req.text)
         ips_html = soup.find_all('td',{'data-title':'IP'})
         ips = []
